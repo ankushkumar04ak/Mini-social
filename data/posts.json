@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1794246768457",
+    "userId": "u1",
+    "text": "hii",
+    "createdAt": "2026-11-09T17:52:48.457Z",
+    "likes": [],
+    "comments": []
+  },
+  {
+    "id": "p1",
+    "userId": "u2",
+    "text": "A little progress every day adds up. Keep creating! ✨",
+    "createdAt": "2026-11-09T10:00:00.000Z",
+    "likes": [
+      "u1",
+      "u3"
+    ],
+    "comments": [
+      {
+        "id": "c1",
+        "userId": "u1",
+        "text": "Needed this reminder!",
+        "createdAt": "2026-11-09T10:10:00.000Z"
+      },
+      {
+        "id": "1794246760608",
+        "userId": "u1",
+        "text": "good",
+        "createdAt": "2026-11-09T17:52:40.608Z"
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "userId": "u3",
+    "text": "Just launched my first mini project. What are you building this week? 💻",
+    "createdAt": "2026-11-08T12:00:00.000Z",
+    "likes": [
+      "u2"
+    ],
+    "comments": []
+  }
+]

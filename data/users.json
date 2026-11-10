@@ -1,0 +1,25 @@
+[
+  {
+    "id": "u1",
+    "name": "Ankush Kumar",
+    "username": "ankush",
+    "bio": "Student | Photographer | Learning to build things",
+    "following": [
+      "u2"
+    ]
+  },
+  {
+    "id": "u2",
+    "name": "Riya Sharma",
+    "username": "riya",
+    "bio": "Coffee, creativity and little moments.",
+    "following": []
+  },
+  {
+    "id": "u3",
+    "name": "Dev Patel",
+    "username": "devcodes",
+    "bio": "Building one project at a time.",
+    "following": []
+  }
+]

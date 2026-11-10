@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop — Mini Social</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="topbar"><a class="brand" href="#">loop<span>.</span></a><span class="tagline">your little corner of
+            the internet</span>
+        <div class="current" id="currentUserLabel">Choose profile</div>
+    </header>
+    <main class="layout">
+        <aside class="left panel">
+            <div class="section-title">Your profile</div>
+            <div id="myProfile"></div><button class="outline full" id="newProfileBtn">＋ Create profile</button>
+            <div class="hint">Demo app · Your activity is saved locally in JSON files.</div>
+        </aside>
+        <section class="feed">
+            <div class="composer panel">
+                <div class="section-title">Share an update</div><textarea id="postText" maxlength="280"
+                    placeholder="What's happening? (280 characters max)"></textarea>
+                <div class="composer-bottom"><span id="charCount">0 / 280</span><button class="primary"
+                        id="publishBtn">Publish post ↗</button></div>
+            </div>
+            <div class="feed-heading">
+                <h2>Community feed</h2><span>Latest updates</span>
+            </div>
+            <div id="posts"></div>
+        </section>
+        <aside class="right panel">
+            <div class="section-title">People to follow</div>
+            <div id="people"></div>
+            <div class="footer-note">Made for learning · HTML, CSS, JavaScript & Express</div>
+        </aside>
+    </main>
+    <div class="modal hidden" id="profileModal">
+        <form class="modal-card" id="profileForm"><button type="button" class="close" id="closeModal">×</button>
+            <p class="eyebrow">JOIN THE COMMUNITY</p>
+            <h2>Create your profile</h2><label>Your name<input id="nameInput" required
+                    placeholder="e.g. Ankush Kumar"></label><label>Username<input id="usernameInput" required
+                    placeholder="e.g. ankush"></label><label>Short bio<input id="bioInput"
+                    placeholder="A little about you"></label><button class="primary full" type="submit">Create
+                profile</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
